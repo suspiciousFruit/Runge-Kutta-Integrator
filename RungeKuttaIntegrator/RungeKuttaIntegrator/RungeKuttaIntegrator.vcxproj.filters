@@ -13,10 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\ThreadPool">
+      <UniqueIdentifier>{99da4ef1-a0b4-487b-90ed-34c2c049e847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Task">
+      <UniqueIdentifier>{8485947e-f175-414b-a031-6db5f6a8690f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\RKIntegrator">
+      <UniqueIdentifier>{ccfa0401-7974-4b48-b2ff-0e45d8236421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utilites">
+      <UniqueIdentifier>{c97af80d-f7d7-402a-85b0-9af3d23b16f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestSystem.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FixThreadPool.h">
+      <Filter>Файлы заголовков\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Файлы заголовков\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskPool.h">
+      <Filter>Файлы заголовков\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Файлы заголовков\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="RKIntegrator\rkmethod_t.h">
+      <Filter>Файлы заголовков\RKIntegrator</Filter>
+    </ClInclude>
+    <ClInclude Include="RKIntegrator\ode_t.h">
+      <Filter>Файлы заголовков\RKIntegrator</Filter>
+    </ClInclude>
+    <ClInclude Include="RKIntegrator\OdeLibrary.h">
+      <Filter>Файлы заголовков\RKIntegrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Файлы заголовков\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValueParser.h">
+      <Filter>Файлы заголовков\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="FileToFileTask.h">
+      <Filter>Файлы заголовков\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderTaskPool.h">
+      <Filter>Файлы заголовков\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegrateTask.h">
+      <Filter>Файлы заголовков\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="RKIntegrator\RKMethodLibrary.h">
+      <Filter>Файлы заголовков\RKIntegrator</Filter>
+    </ClInclude>
+    <ClInclude Include="RKIntegrator\RKIntegrator.h">
+      <Filter>Файлы заголовков\RKIntegrator</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
